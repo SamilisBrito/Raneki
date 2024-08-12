@@ -8,7 +8,7 @@ const Contato = () => {
     <>
       <Head title="Contato" descripition="descriçao de contato" />
       <div className={`${style.content} ${"animeLeft"}`}>
-        <img className={style.img} src={contato} alt="contato" />
+        <img className={style.img} src={contato} alt="máquina de escrever" />
         <div>
           <h2>Entre em contato.</h2>
           <ul className={style.ul}>
