@@ -20,7 +20,7 @@ const Produto = () => {
       }
     }
     produto();
-  }, []);
+  }, [id]);
 
   if (produto) {
     return (
