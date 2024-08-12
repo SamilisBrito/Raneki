@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.figures {
+  margin: 0;
+  display: grid;
+  gap: 30px;
+}
+
+.img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.texto {
+  max-width: 300px;
+}
+.texto span {
+  padding: 5px;
+  background-color: #83f52c;
+  border-radius: 5px;
+}
+
+.texto p {
+  font-weight: 500;
+}
