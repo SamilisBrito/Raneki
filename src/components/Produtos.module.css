@@ -1,0 +1,16 @@
+.content {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.title {
+  color: rgb(32, 32, 32);
+}
