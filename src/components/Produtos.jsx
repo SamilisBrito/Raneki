@@ -29,7 +29,7 @@ const Produtos = () => {
   return (
     <>
       <Head title="Produtos" descripition="descrição de Produtos" />
-      {loading && <p>Carregando...</p>}
+      {loading && <div className="loading"></div>}
       <div className={`${styles.content} ${"animeLeft"}`}>
         {dados &&
           dados.map((produto) => (
