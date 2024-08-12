@@ -1,0 +1,23 @@
+.link {
+  text-decoration: none;
+  padding: 0.625rem;
+  background-color: #ececec;
+  text-decoration: none;
+  color: #202020;
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+
+/* usa-se para tornar a classe padrao do navLink global e poder estilizar no css module  */
+:global(.active), .link:hover {
+  background-color: #d7d7d7;
+}
+
+.header {
+  margin-bottom: 1.25rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.25rem;
+}
